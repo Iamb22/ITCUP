@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+int i,n,key, ; 
+int T[n];
+printf("fill the array");i=0;
+for(i=0;i<n;i++){
+scanf("%d",&T[i]);
+}
+printf("give me the key");
+scanf("%d",&key); i=0;
+for(i=0;i<n;i++)
+if(key=T[i]){
+    printf("its index is %d",i);
+    else
+    printf("-1");
+}
+
+
+
+return 0
+}
